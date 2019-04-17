@@ -41,6 +41,7 @@
 
 body {
   font-family: "Oswald";
+  color: #111111;
 }
 
 a {
@@ -53,22 +54,30 @@ a {
   margin: 0 auto;
 }
 
+/* changer le fonctionnement repsonsive avec un max width plutot */
 header {
   position: fixed;
   height: 75px;
-  width:60%;
+  width:100%;
   background: white;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  padding-left: 20vw;
-  padding-right: 20vw;
   margin-top: -75px;
   -webkit-box-shadow: 0px 2px 4px 0px rgba(117, 117, 117, 0.25);
   -moz-box-shadow: 0px 2px 4px 0px rgba(117, 117, 117, 0.25);
   box-shadow: 0px 2px 4px 0px rgba(117, 117, 117, 0.25);
   font-weight: normal;
+}
+
+.test {
+  width: 100%;
+  max-width: 1130px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -87,7 +96,7 @@ header {
 .header__button {
   font-family: "oswald";
   cursor: pointer;
-  background-color: #B92A26; /* Green */
+  background-color: #B92A26;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -151,7 +160,7 @@ h1 {
   width: 200px;
   font-family: "oswald";
   cursor: pointer;
-  background-color: white; /* Green */
+  background-color: white;
   border: none;
   color: #111111;
   padding: 15px 32px;
@@ -164,5 +173,52 @@ h1 {
 .details {
   display: flex;
   flex-direction: row;
-  
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details.space {
+  margin-top: 125px;
+}
+
+.details__text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.text__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.text__line {
+  width: 61.3px;
+  height: 1px;
+  background: #B92A26;
+}
+
+.text__content {
+  font-family: "Lato";
+  line-height: 130%;
+  font-weight: normal;
+  max-width: 350px;
+}
+
+.highlight {
+  color: #B92A26;
+  font-weight: normal;
+}
+
+.details__illustration {
+  max-width: 730px;
+}
+
+.details__illustration.order {
+  order: -1;
 }
