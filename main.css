@@ -136,7 +136,13 @@ h1 {
   letter-spacing: 3px;
 }
 
-.timer {
+h2 {
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-top: -50px;
+}
+
+/* .timer {
   font-family: "Lato";
   font-weight: normal;
   font-size: 80px;
@@ -153,7 +159,7 @@ h1 {
 
 .timer__info {
   font-size: 16px;
-}
+} */
 
 .hero__button {
   width: 200px;
@@ -204,6 +210,7 @@ h1 {
 
 .text__content {
   font-family: "Lato";
+  font-size: 18px;
   line-height: 130%;
   font-weight: normal;
   max-width: 350px;
