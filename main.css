@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "oswald";
+  src: url("oswald-light-webfont.woff2") format("woff2"),
+    url("oswald-light-webfont.woff") format("woff");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "oswald";
+  src: url("oswald-regular-webfont.woff2") format("woff2"),
+    url("oswald-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "oswald";
+  src: url("oswald-bold-webfont.woff2") format("woff2"),
+    url("oswald-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "Oswald";
+}
+
+a {
+  text-decoration: none;
+  color: #111111;
+}
+
+section {
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+header {
+  position: fixed;
+  height: 75px;
+  width:60%;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(117, 117, 117, 0.25);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(117, 117, 117, 0.25);
+  box-shadow: 0px 2px 4px 0px rgba(117, 117, 117, 0.25);
+  font-weight: normal;
+}
+
+.logo {
+  width: 70px;
+  height: 45px;
+}
+
+.header__buttons {
+  width: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__button {
+  font-family: "oswald";
+  cursor: pointer;
+  background-color: #B92A26; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.hero {
+  padding-top: 75px;
+}
