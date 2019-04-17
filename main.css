@@ -2,7 +2,7 @@
   font-family: "oswald";
   src: url("fonts/oswald-light-webfont.woff2") format("woff2"),
     url("fonts/oswald-light-webfont.woff") format("woff");
-  font-weight: lighter;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -54,7 +54,6 @@ a {
   margin: 0 auto;
 }
 
-/* changer le fonctionnement repsonsive avec un max width plutot */
 header {
   position: fixed;
   height: 75px;
@@ -70,7 +69,7 @@ header {
   font-weight: normal;
 }
 
-.test {
+.wrapper {
   width: 100%;
   max-width: 1130px;
   display: flex;
@@ -221,4 +220,29 @@ h1 {
 
 .details__illustration.order {
   order: -1;
+}
+
+.quote {
+  margin: 0 auto;
+  margin-top: 150px;
+  text-transform: uppercase;
+  max-width: 580px;
+  text-align: center;
+}
+
+.quote__quotes {
+  font-size: 36px;
+  color: #B92A26;
+}
+
+.quote__text {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 130%;
+}
+
+.quote__author {
+  font-size: 36px;
+  font-weight: 300;
+  color: #B92A26;
 }
