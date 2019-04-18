@@ -38,7 +38,6 @@
   font-style: normal;
 }
 
-
 body {
   font-family: "Oswald";
   color: #111111;
@@ -57,7 +56,7 @@ a {
 header {
   position: fixed;
   height: 75px;
-  width:100%;
+  width: 100%;
   background: white;
   display: flex;
   flex-direction: row;
@@ -96,7 +95,7 @@ header {
 .header__button {
   font-family: "oswald";
   cursor: pointer;
-  background-color: #B92A26;
+  background-color: #b92a26;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -187,7 +186,7 @@ h2 {
 .text__line {
   width: 61.3px;
   height: 1px;
-  background: #B92A26;
+  background: #b92a26;
 }
 
 .text__content {
@@ -199,7 +198,7 @@ h2 {
 }
 
 .highlight {
-  color: #B92A26;
+  color: #b92a26;
   font-weight: normal;
 }
 
@@ -221,7 +220,7 @@ h2 {
 
 .quote__quotes {
   font-size: 36px;
-  color: #B92A26;
+  color: #b92a26;
 }
 
 .quote__text {
@@ -233,11 +232,11 @@ h2 {
 .quote__author {
   font-size: 36px;
   font-weight: 300;
-  color: #B92A26;
+  color: #b92a26;
 }
 
 .hero__slash img {
-  width: 100vw;
+  width: 100%;
   height: auto;
 }
 
@@ -260,4 +259,34 @@ h2 {
   font-weight: normal;
   margin-bottom: 20px;
   font-size: 18px;
+}
+
+footer {
+  margin-top: 50px;
+  -webkit-box-shadow: 0px -2px 1.5px 0px rgba(190,190,190,0.2);
+  -moz-box-shadow: 0px -2px 1.5px 0px rgba(190,190,190,0.2);
+  box-shadow: 0px -2px 1.5px 0px rgba(190,190,190,0.2);
+  position: relative;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__links {
+  text-transform: uppercase;
+  font-weight: 300;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo--center {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
