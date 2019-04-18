@@ -85,11 +85,12 @@ header {
 }
 
 .header__buttons {
-  width: 310px;
+  width: 250px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  text-transform: uppercase;
 }
 
 .header__button {
@@ -141,25 +142,6 @@ h2 {
   text-transform: uppercase;
   margin-top: -50px;
 }
-
-/* .timer {
-  font-family: "Lato";
-  font-weight: normal;
-  font-size: 80px;
-  display: flex;
-  flex-direction: row;
-}
-
-.timer__hours, .timer__minutes, .timer__days, .timer__seconds {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.timer__info {
-  font-size: 16px;
-} */
 
 .hero__button {
   width: 200px;
