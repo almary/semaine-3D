@@ -143,13 +143,13 @@ h2 {
 }
 
 .hero__button {
-  width: 200px;
+  width: 100px;
   font-family: "oswald";
   cursor: pointer;
   background-color: white;
   border: none;
   color: #111111;
-  padding: 15px 32px;
+  padding: 23px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
