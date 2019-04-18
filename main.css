@@ -236,19 +236,28 @@ h2 {
   color: #B92A26;
 }
 
-.hero__slash {
-  width: 100%;
-  background-image: url("assets/slash.png");
-  height: 1000px;
-  background-repeat: no-repeat;
-  background-size:cover;
+.hero__slash img {
+  width: 100vw;
+  height: auto;
 }
 
 .podium {
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 70px;
   width: 1110px;
   height: 512px;
   background-image: url("assets/podium.png");
   background-repeat: no-repeat;
+}
+
+.end {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.asterisque {
+  font-family: "Lato";
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-size: 18px;
 }
