@@ -95,7 +95,7 @@ header {
 .header__button {
   font-family: "oswald";
   cursor: pointer;
-  background-color: #b92a26;
+  background-color: #A8643C;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -186,7 +186,7 @@ h2 {
 .text__line {
   width: 61.3px;
   height: 1px;
-  background: #b92a26;
+  background: #A8643C;
 }
 
 .text__content {
@@ -198,7 +198,7 @@ h2 {
 }
 
 .highlight {
-  color: #b92a26;
+  color: #A8643C;
   font-weight: normal;
 }
 
@@ -220,7 +220,7 @@ h2 {
 
 .quote__quotes {
   font-size: 36px;
-  color: #b92a26;
+  color: #A8643C;
 }
 
 .quote__text {
@@ -232,7 +232,7 @@ h2 {
 .quote__author {
   font-size: 36px;
   font-weight: 300;
-  color: #b92a26;
+  color: #A8643C;
 }
 
 .hero__slash img {
