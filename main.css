@@ -95,6 +95,7 @@ header {
 .header__button {
   font-family: "oswald";
   cursor: pointer;
+  text-transform: uppercase;
   background-color: #A8643C;
   border: none;
   color: white;
@@ -175,6 +176,10 @@ h2 {
   align-items: center;
   justify-content: space-between;
   height: 200px;
+}
+
+.details__text.high {
+  height: 250px;
 }
 
 .text__title {
